@@ -10,6 +10,9 @@
 		<link rel="stylesheet" href="dist/theme/palestra.css" id="theme">
 
         <link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<!-- <link rel="stylesheet" href="plugin/title-footer/title-footer.css"> -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">		
 	</head>
 
 	<body>
@@ -23,6 +26,14 @@
                 <section data-markdown="intro.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
 
 				<section data-markdown="contexto.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+
+				<section data-markdown="problema.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+
+				<section data-markdown="pitfalls.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+
+				<section data-markdown="contato.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+
+				<section data-markdown="obrigado.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
 
                 <!-- Slides are separated by three dashes (the default) -->
                 <section data-markdown>
@@ -142,7 +153,11 @@
 				history: true,
 				center: true,
 
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX, PlantUML ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX, PlantUML ],
+				dependencies:[
+					// {src:'plugin/title-footer/title-footer.js',async:true,callback:()=>{title_footer.initialize();}},
+					{ src: '//cdn.jsdelivr.net/npm/reveal-plantuml' },
+				]
 			});
 
 		</script>

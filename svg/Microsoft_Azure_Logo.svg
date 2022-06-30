@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 6.3499998 6.3499998"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="Microsoft_Azure_Logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4.6300006"
+     inkscape:cx="99.999988"
+     inkscape:cy="28.83369"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(677.9313,-313.85407)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path21"
+       d="m -674.95388,318.85929 c 0.67985,-0.1201 1.24138,-0.21948 1.24783,-0.22085 l 0.0117,-0.002 -0.64185,-0.76346 c -0.35302,-0.4199 -0.64185,-0.76509 -0.64185,-0.76708 0,-0.004 0.66276,-1.82888 0.66649,-1.83538 10e-4,-0.002 0.45228,0.77653 1.09333,1.88761 0.60017,1.04022 1.09498,1.89788 1.09958,1.90592 l 0.008,0.0146 -2.03986,-2.6e-4 -2.03986,-2.7e-4 1.23611,-0.21836 z m -2.44806,-0.2328 c 0,-10e-4 0.30244,-0.52608 0.67208,-1.16668 l 0.67209,-1.16473 0.78323,-0.6573 c 0.43078,-0.36151 0.7844,-0.65773 0.78581,-0.65827 10e-4,-5.4e-4 -0.004,0.0137 -0.0126,0.0317 -0.008,0.018 -0.39106,0.83887 -0.85048,1.8242 l -0.83532,1.79152 -0.60741,8.1e-4 c -0.33408,5.3e-4 -0.60741,-1.2e-4 -0.60741,-0.001 z"
+       style="fill:#0089d6;fill-opacity:1;stroke-width:0.00301856"
+       sodipodi:nodetypes="cccsscccccccccsccccccccc" />
+  </g>
+</svg>

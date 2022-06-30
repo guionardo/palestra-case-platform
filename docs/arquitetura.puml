@@ -1,0 +1,54 @@
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!define osaPuml https://raw.githubusercontent.com/Crashedmind/PlantUML-opensecurityarchitecture2-icons/master
+!include osaPuml/Common.puml
+!include osaPuml/User/all.puml
+
+!include <office/Servers/file_server>
+!include <office/Servers/application_server>
+!include <office/Concepts/service_application>
+!include <office/Concepts/application_web>
+!include <office/Services/network_file_share_service>
+
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-1/dist
+
+!include AzurePuml/AzureCommon.puml
+!include AzurePuml/Storage/AzureBlobStorage.puml
+!include AzurePuml/Integration/AzureServiceBus.puml
+
+AddContainerTag("files", $sprite="file_server", $legendText="file server container")
+AddContainerTag("webApp", $sprite="application_server", $legendText="web app container")
+AddContainerTag("bot", $sprite="service_application", $legendText="console app container")
+AddContainerTag("service", $sprite="network_file_share_service", $legendText="console app container")
+AddContainerTag("api",$sprite="application_web",$legendText="api container")
+
+System_Boundary(aix, "AIX"){
+    Container(erp, "ERP", "COBOL", $tags="webApp")
+    Container(bot, "BOT", "COBOL", $tags="bot")
+    ContainerDb(fs, "File System", "SAMBA", $tags="files")
+    Container(provider, "File Provider","Python",$tags="service")
+}
+
+Rel(bot,erp,"Get entity events")
+Rel(bot,fs,"Writes to files")
+Rel(provider,fs,"Reads files")
+
+AddContainerTag("blob",$sprite="AzureBlobStorage")
+AddContainerTag("queue",$sprite="AzureServiceBus")
+
+System_Boundary(cloud,"Azure Kubernetes System"){
+
+    Container(rcv1, "File Receiver 1","C#",$tags="api")
+    Container(rcv2, "File Receiver 2","C#",$tags="api")
+    ContainerDb(blob, "Blob Storage",$tags="blob")
+    ContainerDb(queue,"Service Bus Queue",$tags="queue")
+}
+
+Rel_R(provider,rcv1,"Send event file")
+Rel_R(provider,rcv2,"Send event file")
+
+Rel(rcv1,queue,"Publish message to queue")
+Rel(rcv2,blob,"Publish file to blob")
+
+@enduml

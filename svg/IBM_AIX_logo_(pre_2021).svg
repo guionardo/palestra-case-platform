@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="24"
+   viewBox="0 0 24.000656 24.000438"
+   width="24"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="IBM_AIX_logo_(pre_2021).svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.922201"
+     inkscape:cx="68.931396"
+     inkscape:cy="50.202866"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <metadata
+     id="metadata2" />
+  <path
+     id="path142"
+     style="fill:#7bba00;fill-opacity:1;stroke:none;stroke-width:3.39947;paint-order:stroke fill markers"
+     d="M 12.000506,1.9999455 A 10.000402,10.000402 0 0 0 2.000055,12.000395 10.000402,10.000402 0 0 0 12.000506,22.000492 10.000402,10.000402 0 0 0 22.000601,12.000395 10.000402,10.000402 0 0 0 12.000506,1.9999455 Z m 0,0.525628 a 9.4748225,9.4748225 0 0 1 9.474823,9.4748215 9.4748225,9.4748225 0 0 1 -9.474823,9.474823 9.4748225,9.4748225 0 0 1 -9.474823,-9.474823 9.4748225,9.4748225 0 0 1 9.474823,-9.4748215 z m -3.64e-4,0.819936 a 8.6548857,8.6548857 0 0 0 -8.654877,8.6548855 8.6548857,8.6548857 0 0 0 8.654885,8.65453 8.6548857,8.6548857 0 0 0 8.654886,-8.65453 8.6548857,8.6548857 0 0 0 -8.654886,-8.6548855 z m -4.927093,5.997922 h 1.633467 l 1.96799,5.3132165 H 9.297269 l -0.334523,-0.96798 h -2.14236 l -0.338082,0.96798 H 5.105067 Z m 4.30609,0 h 1.37012 v 5.3132165 h -1.37012 z m 2.252691,0 h 1.430618 l 1.164068,1.7117595 1.160154,-1.7117595 h 1.437736 l -1.772259,2.6014465 1.843434,2.71177 h -1.427052 l -1.242004,-1.814964 -1.231684,1.814964 h -1.434178 l 1.84379,-2.71177 z M 7.891562,10.588994 7.162017,12.702892 h 1.45553 z" />
+</svg>

@@ -13,6 +13,7 @@
 
 // Include theme-specific fonts
 @import url(./fonts/league-gothic/league-gothic.css);
+@import url(./fonts/palestra/palestra.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 
 
@@ -24,8 +25,9 @@ html * {
     rendering-intent: auto;
 }
 
-img[alt=ambev]{
-    width: 70%;    
+img[alt=ambev], img[alt=cobol] {
+    max-width: 70%;    
+    max-height: 70%;
 }
 
 .palestra_background {
@@ -39,6 +41,12 @@ img[alt=ambev]{
     height: 180px;    
     z-index: -100
 }
+
+.legend {
+    margin: var(--r-block-margin) 0;
+    line-height: 1.0;
+}
+
 // Solarized colors
 $base03: #002b36;
 $base02: #073642;
@@ -66,10 +74,6 @@ $linkColor: $blue;
 $linkColorHover: lighten($linkColor, 20%);
 $selectionBackgroundColor: $magenta;
 
-// Background generator
-// @mixin bodyBackground() {
-// 	@include radial-gradient( rgba($base3,1), rgba(lighten($base3, 20%),1) );
-// }
 
 
 

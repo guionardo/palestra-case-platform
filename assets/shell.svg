@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="79.375mm"
+   height="79.375mm"
+   viewBox="0 0 79.375 79.375"
+   version="1.1"
+   id="svg93"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="shell.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview95"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.75187991"
+     inkscape:cx="-118.36997"
+     inkscape:cy="334.49491"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs90" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-116.42746,-88.340569)">
+    <path
+       id="rect359"
+       style="fill:#000000;stroke:none;stroke-width:3.51564;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 46.689453 0 C 20.823979 0 4.7369516e-15 20.823979 0 46.689453 L 0 253.31055 C 0 279.17602 20.823979 300 46.689453 300 L 253.31055 300 C 279.17602 300 300 279.17602 300 253.31055 L 300 46.689453 C 300 20.823979 279.17602 4.7369516e-15 253.31055 0 L 46.689453 0 z M 43.185547 29.804688 L 108 54.482422 L 108 74.802734 L 43.185547 99.480469 L 43.185547 85.154297 L 95.693359 64.705078 L 43.185547 44.195312 L 43.185547 29.804688 z M 114.05859 115.19336 L 192.18945 115.19336 L 192.18945 121.25391 L 114.05859 121.25391 L 114.05859 115.19336 z "
+       transform="matrix(0.26458333,0,0,0.26458333,116.42746,88.340569)" />
+  </g>
+</svg>
