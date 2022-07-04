@@ -5,7 +5,7 @@
 
 <table>
 <tr><td width="30%"><img src="assets/mri-0.png" /></td>
-<td>ERP produzirá arquivos JSON de eventos no sistema de arquivos que deverão ser enviados para mensageria.<br/>
+<td>ERP produzirá JSONs de eventos no sistema de arquivos que deverão ser enviados para mensageria.<br/>
 Para receber estes arquivos será necessário um microsserviço de recebimento (API).
 </td></tr></table>
 
@@ -16,14 +16,14 @@ Note: Robôs do ERP criarão arquivos JSON que
 
 <table>
 <tr><td width="30%"><img src="assets/mri-0.png" /></td>
-<td>Os arquivos de eventos serão gravados em pastas diferentes correspontentes ao domínio que eles pertençam.</td></tr></table>
+<td>Os arquivos de eventos serão gravados em pastas correspontentes ao domínio que eles pertençam.</td></tr></table>
 
 
 ## Requisitos (v3)
 
 <table>
 <tr><td width="30%"><img src="assets/mri-0.png" /></td>
-<td>Além das pastas de domínio, os arquivos de eventos serão gravados em subpastas que indicam uma subdivisão de domínio e nome de fila correspondente.</td></tr></table>
+<td>Além das pastas de domínio, os arquivos de eventos serão gravados em subpastas que indicam subdomínio.</td></tr></table>
 
 
 ## Requisitos (v4)
@@ -59,7 +59,5 @@ Arquivos rejeitados pelas API devem ser movidos para pasta 'error' com registro 
 - Espaço em disco ocupado.
 </td></tr></table>
 
-
-## UML
 
 <img src="assets/C4_Elements.svg" height="80%"></img>

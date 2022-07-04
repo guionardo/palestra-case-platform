@@ -1,0 +1,51 @@
+@startuml provider-flow
+
+title "Provider Flow Diagram"
+
+start
+
+fork
+    group File Collector
+    while (can run?)
+        :load configuration;
+        :enumerate sources;
+        :collect files;
+        if (there's files to send?) then (yes)
+            :schedule files by sources;
+            :enqueue files;                   
+        endif
+    endwhile
+    end group
+
+fork again
+    group File Sender
+    while (can run?)        
+        :get file from queue;
+        :send file to API;
+        :wait ACK;
+        switch (response?)
+            case (ACK)
+                :move file to sent folder;
+            case (error)
+                :reenqueue file;
+            case (NACK)
+                :move file to error folder;
+        endswitch
+        :update statistics;
+       
+    endwhile
+    end group
+
+fork again
+    group Metric Publisher
+        while (can run?)
+            if (it's time to publish metrics?) then (yes)
+                :publish metrics;
+            endif
+        endwhile
+    end group
+
+end fork
+
+end
+@enduml

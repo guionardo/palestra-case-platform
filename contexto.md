@@ -5,7 +5,8 @@
 
 <table>
 <tr><td><img src="assets/cobol.svg" /></td>
-<td>Software desenvolvido internamente, com mais de 20 anos de idade e em processo de descomissionamento.</td></tr></table>
+<td>Software desenvolvido internamente, com mais de 20 anos de idade e em processo de descomissionamento.<br/>
+Responsável pela operação AmBev em nível nacional.</td></tr></table>
 
 Note: This will only appear in the speaker notes window.
 
@@ -24,12 +25,6 @@ Note: This will only appear in the speaker notes window.
 * Python
 
 
-## Conectividade
+## Problema Geral
 
-![SSH](assets/ssh.svg)
-
-
-## UML
-
-<img uml="Bob->Alice : hello
-Alice->Carl : HI"></img>
+Extração contínua de dados do ERP via eventos de estado para disponibilização ao novo ecossistema de microsserviços.

@@ -19,7 +19,7 @@ img[alt=ambev], img[alt=cobol] {
 }
 
 .palestra_background {
-  background: url(/assets/ambev_tech_amarelo.png);
+  background: url(assets/ambev_tech_amarelo.png);
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;

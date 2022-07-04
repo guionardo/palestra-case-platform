@@ -1,4 +1,7 @@
 @startuml C4_Elements
+
+title "Arquitetura (C4)"
+
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
 !define osaPuml https://raw.githubusercontent.com/Crashedmind/PlantUML-opensecurityarchitecture2-icons/master
@@ -17,30 +20,33 @@
 !include AzurePuml/Storage/AzureBlobStorage.puml
 !include AzurePuml/Integration/AzureServiceBus.puml
 
-AddContainerTag("files", $sprite="file_server", $legendText="file server container")
-AddContainerTag("webApp", $sprite="application_server", $legendText="web app container")
-AddContainerTag("bot", $sprite="service_application", $legendText="console app container")
-AddContainerTag("service", $sprite="network_file_share_service", $legendText="console app container")
-AddContainerTag("api",$sprite="application_web",$legendText="api container")
+AddContainerTag("files", $sprite="file_server", $legendText="File Server")
+AddContainerTag("webApp", $sprite="application_server", $legendText="WEB App")
+AddContainerTag("bot", $sprite="service_application", $legendText="Worker Bot")
+AddContainerTag("service", $sprite="network_file_share_service", $legendText="Worker")
+AddContainerTag("api",$sprite="application_web",$legendText="WEB API")
+
+AddElementTag("cobol",$bgColor="#000044",$legendText="COBOL")
+AddElementTag("our",$bgColor="#008800",$legendText="Our implementations")
 
 System_Boundary(aix, "AIX"){
-    Container(erp, "ERP", "COBOL", $tags="webApp")
-    Container(bot, "BOT", "COBOL", $tags="bot")
+    Container(erp, "ERP", "COBOL", $tags="cobol+webApp")
+    Container(bot, "BOTs", "COBOL", $tags="cobol+bot")
     ContainerDb(fs, "File System", "SAMBA", $tags="files")
-    Container(provider, "File Provider","Python",$tags="service")
+    Container(provider, "File Provider","Python",$tags="our+service")
 }
 
 Rel(bot,erp,"Get entity events")
 Rel(bot,fs,"Writes to files")
 Rel(provider,fs,"Reads files")
 
-AddContainerTag("blob",$sprite="AzureBlobStorage")
-AddContainerTag("queue",$sprite="AzureServiceBus")
+AddContainerTag("blob",$sprite="AzureBlobStorage",$legendText="Azure Blob Storage")
+AddContainerTag("queue",$sprite="AzureServiceBus",$legendText="Azure Service Bus")
 
 System_Boundary(cloud,"Azure Kubernetes System"){
 
-    Container(rcv1, "File Receiver 1","C#",$tags="api")
-    Container(rcv2, "File Receiver 2","C#",$tags="api")
+    Container(rcv1, "File Receiver 1","C#",$tags="our+api")
+    Container(rcv2, "File Receiver 2","C#",$tags="our+api")
     ContainerDb(blob, "Blob Storage",$tags="blob")
     ContainerDb(queue,"Service Bus Queue",$tags="queue")
 }
@@ -51,4 +57,5 @@ Rel_R(provider,rcv2,"Send event file")
 Rel(rcv1,queue,"Publish message to queue")
 Rel(rcv2,blob,"Publish file to blob")
 
+SHOW_LEGEND()
 @enduml
