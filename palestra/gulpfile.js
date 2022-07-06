@@ -302,7 +302,7 @@ gulp.task('dist', gulp.series(() =>
         ],
         { base: './' }
     )
-        .pipe(gulp.dest('../html'))
+        .pipe(gulp.dest('../docs'))
 
 ))
 
