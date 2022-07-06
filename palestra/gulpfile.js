@@ -302,11 +302,11 @@ gulp.task('dist', gulp.series(() =>
         ],
         { base: './' }
     )
-        .pipe(gulp.dest('./pack'))
+        .pipe(gulp.dest('../html'))
 
 ))
 
-gulp.task('build_pack', gulp.series('build', 'dist', 'package'))
+gulp.task('build_pack', gulp.series('build', 'dist'))
 
 gulp.task('reload', () => gulp.src(['*.html', '*.md'])
     .pipe(connect.reload()));
