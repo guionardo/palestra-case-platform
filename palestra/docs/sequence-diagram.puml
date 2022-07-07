@@ -5,14 +5,15 @@ title "Provider Flow Diagram"
 start
 
 fork
-    group File Collector
+    group File Collector    
     while (can run?)
         :load configuration;
         :enumerate sources;
         :collect files;
         if (there's files to send?) then (yes)
             :schedule files by sources;
-            :enqueue files;                   
+            :enqueue files;
+            :update statistics;                
         endif
     endwhile
     end group
@@ -21,6 +22,7 @@ fork again
     group File Sender
     while (can run?)        
         :get file from queue;
+        :detect API that will receive file;
         :send file to API;
         :wait ACK;
         switch (response?)

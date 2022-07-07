@@ -58,6 +58,3 @@ Arquivos rejeitados pelas API devem ser movidos para pasta 'error' com registro 
 - Erros de envio,<br/>
 - Espaço em disco ocupado.
 </td></tr></table>
-
-
-<img src="images/C4_Elements.svg" height="80%"></img>

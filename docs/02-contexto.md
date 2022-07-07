@@ -18,11 +18,11 @@ Note: This will only appear in the speaker notes window.
 
 ## Tecnologias de desenvolvimento
 
-* COBOL
-* Shell script
-* Perl
-* C
-* Python
+* <span class="icon-cobol"></span> COBOL
+* <span class="icon-shell"></span> Shell script
+* <span class="icon-perl"></span> Perl
+* <span class="icon-c"></span> C
+* <span class="icon-python"></span> Python
 
 
 ## Problema Geral

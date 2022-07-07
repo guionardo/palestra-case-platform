@@ -1,0 +1,13 @@
+{
+    "sources": [
+        {
+            "path": "/data/extract/account/*/*.json",
+            "host": "http://api.localhost:8080"
+        }
+    ],
+    "stop": {
+        "stop_file": "/data/extract/EXTRACTION.STOP",
+        "start_time": "00:00:00",
+        "stop_time": "00:00:00"
+    }
+}
