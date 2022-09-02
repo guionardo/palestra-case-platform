@@ -27,4 +27,6 @@ Note: This will only appear in the speaker notes window.
 
 ## Problema Geral
 
-Extração contínua de dados do ERP via eventos de estado para disponibilização ao novo ecossistema de microsserviços.
+* Extração contínua de dados do ERP
+  - eventos de estado
+  - disponibilização ao novo ecossistema de microsserviços.

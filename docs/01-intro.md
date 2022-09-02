@@ -7,6 +7,8 @@ Extração de dados de um monolito para consumo em microsserviços
  
 ![guionardo](images/guionardo.jpg)
 
+Engenheiro de Software Sênior
+
 
 
 ## Ambev Tech
@@ -18,7 +20,7 @@ Extração de dados de um monolito para consumo em microsserviços
 
 ## Squads
 
-- Canaã <!-- .element: class="fragment" data-fragment-index="1" -->
+- Canaã/Bifrost <!-- .element: class="fragment" data-fragment-index="1" -->
 - B2B (Monitoring/Platform) <!-- .element: class="fragment" data-fragment-index="2" -->
 - BeesForce <!-- .element: class="fragment" data-fragment-index="3" -->
 
@@ -26,7 +28,7 @@ Extração de dados de um monolito para consumo em microsserviços
 ## Stack/Tech
 
 |                                     |              |                                    |                |
-|-------------------------------------|--------------|------------------------------------|----------------|
+| ----------------------------------- | ------------ | ---------------------------------- | -------------- |
 | <span class="icon-python"></span>   | Python       | <span class="icon-csharp"></span>  | DotNet Core C# |
 | <span class="icon-shell"></span>    | Shell Script | <span class="icon-mongodb"></span> | MongoDB        |
 | <span class="icon-postgres"></span> | PostgreSQL   | <span class="icon-azure"></span>   | Azure          |
