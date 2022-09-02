@@ -28,6 +28,7 @@ AddContainerTag("api",$sprite="application_web",$legendText="WEB API")
 
 AddElementTag("cobol",$bgColor="#000044",$legendText="COBOL")
 AddElementTag("our",$bgColor="#008800",$legendText="Our implementations")
+AddElementTag("third",$bgColor="#880000",$legendText="Third party implementations")
 
 System_Boundary(aix, "AIX"){
     Container(erp, "ERP", "COBOL", $tags="cobol+webApp")
@@ -46,16 +47,23 @@ AddContainerTag("queue",$sprite="AzureServiceBus",$legendText="Azure Service Bus
 System_Boundary(cloud,"Azure Kubernetes System"){
 
     Container(rcv1, "File Receiver 1","C#",$tags="our+api")
-    Container(rcv2, "File Receiver 2","C#",$tags="our+api")
+    Container(rcv2, "File Receiver 2","C#",$tags="our+api")    
     ContainerDb(blob, "Blob Storage",$tags="blob")
     ContainerDb(queue,"Service Bus Queue",$tags="queue")
+    Container(metricApi,"Metric API","C#",$tags="our+api")
 }
 
 Rel_R(provider,rcv1,"Send event file")
 Rel_R(provider,rcv2,"Send event file")
+Rel_R(provider,metricApi,"Publish metrics")
 
 Rel(rcv1,queue,"Publish message to queue")
 Rel(rcv2,blob,"Publish file to blob")
 
+System_Boundary(external,"External"){
+
+    Container(datadog,"DataDog",$tags="third+service")
+}
+Rel(metricApi,datadog,"Publish metrics")
 SHOW_LEGEND()
 @enduml

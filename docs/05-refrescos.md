@@ -2,15 +2,13 @@
 
 <img src="images/oh-god-why.svg" height="50%"/><br/>
 <small>(Activision/Reprodução)</small>
-
-
+--
 ## Refresco (1)
 
 <table>
 <tr><td width="30%"><img src="images/mri-0.png" /></td>
 <td>Atualização do python para a versão 3.8.5</td></tr></table>
-
-
+--
 ## Buraco (2)
 
 <table>

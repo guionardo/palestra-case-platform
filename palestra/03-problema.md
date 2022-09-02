@@ -5,7 +5,7 @@
 
 <table>
 <tr><td width="30%"><img src="images/mri-0.png" /></td>
-<td>ERP produzirá JSONs de eventos no sistema de arquivos que deverão ser enviados para mensageria.<br/>
+<td>ERP produzirá arquivos JSON de eventos que deverão ser enviados para mensageria.<br/>
 Para receber estes arquivos será necessário um microsserviço de recebimento (API).
 </td></tr></table>
 
@@ -16,7 +16,7 @@ Note: Robôs do ERP criarão arquivos JSON que
 
 <table>
 <tr><td width="30%"><img src="images/mri-0.png" /></td>
-<td>Os arquivos de eventos serão gravados em pastas correspontentes ao domínio que eles pertençam.</td></tr></table>
+<td>Os arquivos de eventos serão gravados em pastas correspontentes ao domínio que eles pertençem.</td></tr></table>
 
 
 ## Requisitos (v3)
@@ -37,7 +37,9 @@ Note: Robôs do ERP criarão arquivos JSON que
 
 <table>
 <tr><td width="30%"><img src="images/mri-1.png" /></td>
-<td>O processo de envio dos arquivos deve contar com um mecanismo de tratamento de falhas e retentativas.</td></tr></table>
+<td>O processo de envio dos arquivos deve contar com um mecanismo de <i>circuit-break</i>.</td></tr></table>
+
+Note: O envio pode falhar por motivo de indisponibilidade dos serviços de recebimento, e nesse caso, deve-se controlar a taxa de envio ou o adiamento. Também pode falhar por motivo de payload inválido. Nesse caso o serviço de recebimento responde com um código de rejeição.
 
 
 ## Requisitos (v6)
@@ -58,3 +60,15 @@ Arquivos rejeitados pelas API devem ser movidos para pasta 'error' com registro 
 - Erros de envio,<br/>
 - Espaço em disco ocupado.
 </td></tr></table>
+
+Note: As métricas coletadas são enviadas para um serviço de monitoramento. No nosso caso, uma API que faz o encaminhamento para o DataDog.
+
+
+## Requisitos (v8)
+
+<table>
+<tr><td width="30%"><img src="images/mri-0.png" /></td>
+<td>Disponibilizar modo de interromper a execução.
+</td></tr></table>
+
+Note: O serviço será executado como um worker, de modo contínuo, e portanto necessita de um mecanismo que possa interromper a execução.
