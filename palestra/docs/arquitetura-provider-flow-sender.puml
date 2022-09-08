@@ -1,0 +1,28 @@
+@startuml arquitetura-provider-flow-sender
+
+!theme crt-amber
+
+start
+
+    group File Sender Worker
+    while (can run?)     
+        :get file from queue;
+        :detect API that will receive file;
+        :send file to API;
+        :wait ACK;
+        switch (response?)
+            case (ACK)
+                :move file to sent folder;
+            case (error)
+                :reenqueue file;
+            case (NACK)
+                :move file to error folder;
+        endswitch
+        :update statistics;
+       
+    endwhile
+    end group
+
+
+end
+@enduml

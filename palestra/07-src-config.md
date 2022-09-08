@@ -18,7 +18,8 @@
     "stop": {
         "stop_file": "/data/extract/EXTRACTION.STOP",
         "start_time": "00:00:00",
-        "stop_time": "00:00:00"
+        "stop_time": "00:00:00",
+        "backup_file": "/data/extract/BACKUP.FLAG"
     }
 }
 ```

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="321px" preserveAspectRatio="none" style="width:263px;height:321px;background:#282828;" version="1.1" viewBox="0 0 263 321" width="263px" zoomAndPan="magnify"><defs/><g><ellipse cx="125.5" cy="15" fill="#282828" rx="10" ry="10" style="stroke:#FFB000;stroke-width:1.0;"/><rect fill="#282828" height="240.668" style="stroke:#FFB000;stroke-width:1.0;" width="251" x="6" y="35"/><path d="M179,35 L179,44.2969 L169,54.2969 L6,54.2969 " fill="none" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="163" x="9" y="48.9951">Metric Publisher Worker</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="115" x="68" y="163.6992"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="95" x="78" y="184.8379">publish metrics</text><polygon fill="#282828" points="46,115.2969,205,115.2969,217,127.2969,205,139.2969,46,139.2969,34,127.2969,46,115.2969" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="20" x="129.5" y="149.5073">yes</text><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="159" x="46" y="131.105">it's time to publish metrics?</text><polygon fill="#282828" points="125.5,217.668,137.5,229.668,125.5,241.668,113.5,229.668,125.5,217.668" style="stroke:#FFB000;stroke-width:1.0;"/><polygon fill="#282828" points="101,71.2969,150,71.2969,162,83.2969,150,95.2969,101,95.2969,89,83.2969,101,71.2969" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="49" x="101" y="87.105">can run?</text><ellipse cx="125.5" cy="305.668" fill="#282828" rx="10" ry="10" style="stroke:#FFB000;stroke-width:1.5;"/><line style="stroke:#FFB000;stroke-width:2.5;" x1="119.3128" x2="131.6872" y1="299.4808" y2="311.8552"/><line style="stroke:#FFB000;stroke-width:2.5;" x1="131.6872" x2="119.3128" y1="299.4808" y2="311.8552"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125.5" x2="125.5" y1="139.2969" y2="163.6992"/><polygon fill="#FFB000" points="121.5,153.6992,125.5,163.6992,129.5,153.6992,125.5,157.6992" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="217" x2="229" y1="127.2969" y2="127.2969"/><polygon fill="#FFB000" points="225,170.6836,229,180.6836,233,170.6836,229,174.6836" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="229" x2="229" y1="127.2969" y2="229.668"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="229" x2="137.5" y1="229.668" y2="229.668"/><polygon fill="#FFB000" points="147.5,225.668,137.5,229.668,147.5,233.668,143.5,229.668" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125.5" x2="125.5" y1="197.668" y2="217.668"/><polygon fill="#FFB000" points="121.5,207.668,125.5,217.668,129.5,207.668,125.5,211.668" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125.5" x2="125.5" y1="95.2969" y2="115.2969"/><polygon fill="#FFB000" points="121.5,105.2969,125.5,115.2969,129.5,105.2969,125.5,109.2969" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125.5" x2="125.5" y1="241.668" y2="251.668"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125.5" x2="241" y1="251.668" y2="251.668"/><polygon fill="#FFB000" points="237,178.6836,241,168.6836,245,178.6836,241,174.6836" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="241" x2="241" y1="83.2969" y2="251.668"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="241" x2="162" y1="83.2969" y2="83.2969"/><polygon fill="#FFB000" points="172,79.2969,162,83.2969,172,87.2969,168,83.2969" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="89" x2="22" y1="83.2969" y2="83.2969"/><polygon fill="#FFB000" points="18,164.6836,22,174.6836,26,164.6836,22,168.6836" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="22" x2="22" y1="83.2969" y2="263.668"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="22" x2="125.5" y1="263.668" y2="263.668"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125.5" x2="125.5" y1="263.668" y2="295.668"/><polygon fill="#FFB000" points="121.5,285.668,125.5,295.668,129.5,285.668,125.5,289.668" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125.5" x2="125.5" y1="25" y2="71.2969"/><polygon fill="#FFB000" points="121.5,61.2969,125.5,71.2969,129.5,61.2969,125.5,65.2969" style="stroke:#FFB000;stroke-width:1.0;"/><!--MD5=[0cd7f7008a0bbc9d172bce68c01108aa]
+@startuml arquitetura-provider-flow-metric-publisher
+
+!theme crt-amber
+
+start
+
+group Metric Publisher Worker
+    while (can run?)
+        if (it's time to publish metrics?) then (yes)
+            :publish metrics;
+        endif
+    endwhile
+    end group
+end
+@enduml
+
+@startuml arquitetura-provider-flow-metric-publisher
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #FFB000
+    FontName Verdana
+    HyperLinkColor #FFCC00
+    LineColor #FFB000
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #FFB000
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #FFB000
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #FFB000
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #FFB000
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #FFB000
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #FFB000
+  BorderColor #FFB000
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #FFB000
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #FFB000
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #FFCC00
+}
+skinparam IconPackage {
+  Color #FFB000
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #FFB000
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #FFB000
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #FFB000
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #FFB000
+}
+skinparam Package {
+  BorderColor #FFB000
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #FFB000
+}
+skinparam StereotypeA {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam StereotypeC {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam StereotypeE {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam StereotypeI {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam StereotypeN {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam UseCaseStereoType {
+  FontColor #FFB000
+  FontName Verdana
+}
+
+start
+
+group Metric Publisher Worker
+    while (can run?)
+        if (it's time to publish metrics?) then (yes)
+            :publish metrics;
+        endif
+    endwhile
+    end group
+end
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 17:34:49 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,4 +1,5 @@
-@startuml C4_Elements
+@startuml arquitetura-c4
+
 
 title "Arquitetura (C4)"
 

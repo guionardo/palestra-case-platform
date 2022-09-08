@@ -13,7 +13,7 @@
     "build": "gulp build",
     "package": "gulp package",
     "dist": "gulp dist",
-    "build_pack":"gulp build_pack"
+    "build_pack": "gulp build_pack"
   },
   "author": {
     "name": "Hakim El Hattab",

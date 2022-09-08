@@ -30,7 +30,7 @@ Note: Robôs do ERP criarão arquivos JSON que
 
 <table>
 <tr><td width="30%"><img src="images/mri-1.png" /></td>
-<td>Os arquivos de eventos podem ser enviados para diferentes API's de acordo com o [sub]domínio via configuração.</td></tr></table>
+<td>Os arquivos de eventos podem ser enviados para diferentes serviços de recepção de acordo com o [sub]domínio via configuração.</td></tr></table>
 
 
 ## Requisitos (v5)
@@ -47,7 +47,7 @@ Note: O envio pode falhar por motivo de indisponibilidade dos serviços de receb
 <table>
 <tr><td width="30%"><img src="images/mri-1.png" /></td>
 <td>Arquivos enviados com sucesso devem ser movidos para pasta 'sent'.<br/>
-Arquivos rejeitados pelas API devem ser movidos para pasta 'error' com registro do motivo de rejeição.</td></tr></table>
+Arquivos rejeitados pelas API's devem ser movidos para pasta 'error' com registro do motivo de rejeição.</td></tr></table>
 
 
 ## Requisitos (v7)

@@ -1,0 +1,34 @@
+@startuml arquitetura-provider-flow-stop-control
+
+!theme crt-amber
+
+start
+
+group Stop Control
+
+    :load configuration;
+
+    split
+        if (is not in execution\ntime window?) then (yes)
+            end            
+        endif
+    split again
+        if (is system in\nbackup mode?) then (yes)
+            end
+            
+        endif
+    split again
+        if (stop file\nexists?) then (yes)
+            end
+            
+        endif 
+    end split
+    
+
+    
+
+end group
+
+:keep running;
+stop
+@enduml

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="855px" preserveAspectRatio="none" style="width:1097px;height:855px;background:#282828;" version="1.1" viewBox="0 0 1097 855" width="1097px" zoomAndPan="magnify"><defs/><g><rect fill="#282828" height="35.6094" style="stroke:#282828;stroke-width:0.0;" width="296" x="399" y="10"/><text fill="#FFB000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="286" x="404" y="35.4209">Provider Flow Diagram</text><ellipse cx="540" cy="61.6094" fill="#282828" rx="10" ry="10" style="stroke:#FFB000;stroke-width:1.0;"/><rect fill="#FFB000" height="6" rx="2.5" ry="2.5" style="stroke:#FFB000;stroke-width:1.0;" width="1085" x="6" y="91.6094"/><rect fill="#282828" height="588.9141" style="stroke:#FFB000;stroke-width:1.0;" width="252" x="18" y="156.0117"/><path d="M116,156.0117 L116,165.3086 L106,175.3086 L18,175.3086 " fill="none" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="88" x="21" y="170.0068">File Collector</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="134" x="70" y="240.3086"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="114" x="80" y="261.4473">load configuration</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="143" x="65.5" y="309.2773"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="123" x="75.5" y="330.416">enumerate sources</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="90" x="92" y="378.2461"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="70" x="102" y="399.3848">collect files</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="178" x="48" y="495.6172"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="158" x="58" y="516.7559">schedule files by sources</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="105" x="84.5" y="564.5859"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="85" x="94.5" y="585.7246">enqueue files</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="126" x="74" y="618.5547"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="106" x="84" y="639.6934">update statistics</text><polygon fill="#282828" points="76.5,447.2148,197.5,447.2148,209.5,459.2148,197.5,471.2148,76.5,471.2148,64.5,459.2148,76.5,447.2148" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="20" x="141" y="481.4253">yes</text><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="121" x="76.5" y="463.0229">there's files to send?</text><polygon fill="#282828" points="137,676.9258,149,688.9258,137,700.9258,125,688.9258,137,676.9258" style="stroke:#FFB000;stroke-width:1.0;"/><polygon fill="#282828" points="112.5,192.3086,161.5,192.3086,173.5,204.3086,161.5,216.3086,112.5,216.3086,100.5,204.3086,112.5,192.3086" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="49" x="112.5" y="208.1167">can run?</text><rect fill="#282828" height="675.7188" style="stroke:#FFB000;stroke-width:1.0;" width="538" x="280" y="107.6094"/><path d="M367,107.6094 L367,116.9063 L357,126.9063 L280,126.9063 " fill="none" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="77" x="283" y="121.6045">File Sender</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="139" x="479.5" y="191.9063"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="119" x="489.5" y="213.0449">get file from queue</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="207" x="445.5" y="260.875"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="187" x="455.5" y="282.0137">detect API that will receive file</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="113" x="492.5" y="329.8438"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="93" x="502.5" y="350.9824">send file to API</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="72" x="513" y="398.8125"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="52" x="523" y="419.9512">wait ACK</text><polygon fill="#282828" points="519,467.7813,579,467.7813,591,479.7813,579,491.7813,519,491.7813,507,479.7813,519,467.7813" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="60" x="519" y="483.5894">response?</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="164" x="308" y="527.3906"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="144" x="318" y="548.5293">move file to sent folder</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="111" x="492" y="527.3906"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="91" x="502" y="548.5293">reenqueue file</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="167" x="623" y="527.3906"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="147" x="633" y="548.5293">move file to error folder</text><polygon fill="#282828" points="549,656.3594,549,656.3594,561,668.3594,549,680.3594,549,680.3594,537,668.3594,549,656.3594" style="stroke:#FFB000;stroke-width:1.0;"/><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="126" x="486" y="715.3594"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="106" x="496" y="736.498">update statistics</text><polygon fill="#282828" points="524.5,143.9063,573.5,143.9063,585.5,155.9063,573.5,167.9063,524.5,167.9063,512.5,155.9063,524.5,143.9063" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="49" x="524.5" y="159.7144">can run?</text><rect fill="#282828" height="259.0703" style="stroke:#FFB000;stroke-width:1.0;" width="251" x="828" y="328.4336"/><path d="M948,328.4336 L948,337.7305 L938,347.7305 L828,347.7305 " fill="none" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="110" x="831" y="342.4287">Metric Publisher</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="115" x="890" y="461.1328"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="95" x="900" y="482.2715">publish metrics</text><polygon fill="#282828" points="868,412.7305,1027,412.7305,1039,424.7305,1027,436.7305,868,436.7305,856,424.7305,868,412.7305" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="20" x="951.5" y="446.9409">yes</text><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="159" x="868" y="428.5386">it's time to publish metrics?</text><polygon fill="#282828" points="947.5,519.5039,959.5,531.5039,947.5,543.5039,935.5,531.5039,947.5,519.5039" style="stroke:#FFB000;stroke-width:1.0;"/><polygon fill="#282828" points="923,364.7305,972,364.7305,984,376.7305,972,388.7305,923,388.7305,911,376.7305,923,364.7305" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="49" x="923" y="380.5386">can run?</text><rect fill="#FFB000" height="6" rx="2.5" ry="2.5" style="stroke:#FFB000;stroke-width:1.0;" width="1085" x="6" y="803.3281"/><ellipse cx="540" cy="839.3281" fill="#282828" rx="10" ry="10" style="stroke:#FFB000;stroke-width:1.5;"/><line style="stroke:#FFB000;stroke-width:2.5;" x1="533.8128" x2="546.1872" y1="833.1409" y2="845.5153"/><line style="stroke:#FFB000;stroke-width:2.5;" x1="546.1872" x2="533.8128" y1="833.1409" y2="845.5153"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="137" x2="137" y1="274.2773" y2="309.2773"/><polygon fill="#FFB000" points="133,299.2773,137,309.2773,141,299.2773,137,303.2773" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="137" x2="137" y1="343.2461" y2="378.2461"/><polygon fill="#FFB000" points="133,368.2461,137,378.2461,141,368.2461,137,372.2461" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="137" x2="137" y1="529.5859" y2="564.5859"/><polygon fill="#FFB000" points="133,554.5859,137,564.5859,141,554.5859,137,558.5859" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="137" x2="137" y1="598.5547" y2="618.5547"/><polygon fill="#FFB000" points="133,608.5547,137,618.5547,141,608.5547,137,612.5547" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="137" x2="137" y1="471.2148" y2="495.6172"/><polygon fill="#FFB000" points="133,485.6172,137,495.6172,141,485.6172,137,489.6172" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="209.5" x2="236" y1="459.2148" y2="459.2148"/><polygon fill="#FFB000" points="232,571.5703,236,581.5703,240,571.5703,236,575.5703" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="236" x2="236" y1="459.2148" y2="688.9258"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="236" x2="149" y1="688.9258" y2="688.9258"/><polygon fill="#FFB000" points="159,684.9258,149,688.9258,159,692.9258,155,688.9258" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="137" x2="137" y1="652.5234" y2="676.9258"/><polygon fill="#FFB000" points="133,666.9258,137,676.9258,141,666.9258,137,670.9258" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="137" x2="137" y1="412.2148" y2="447.2148"/><polygon fill="#FFB000" points="133,437.2148,137,447.2148,141,437.2148,137,441.2148" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="137" x2="137" y1="216.3086" y2="240.3086"/><polygon fill="#FFB000" points="133,230.3086,137,240.3086,141,230.3086,137,234.3086" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="137" x2="137" y1="700.9258" y2="712.9258"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="137" x2="254" y1="712.9258" y2="712.9258"/><polygon fill="#FFB000" points="250,476.1172,254,466.1172,258,476.1172,254,472.1172" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="254" x2="254" y1="204.3086" y2="712.9258"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="254" x2="173.5" y1="204.3086" y2="204.3086"/><polygon fill="#FFB000" points="183.5,200.3086,173.5,204.3086,183.5,208.3086,179.5,204.3086" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="100.5" x2="34" y1="204.3086" y2="204.3086"/><polygon fill="#FFB000" points="30,462.1172,34,472.1172,38,462.1172,34,466.1172" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="34" x2="34" y1="204.3086" y2="724.9258"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="34" x2="137" y1="724.9258" y2="724.9258"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="137" x2="137" y1="724.9258" y2="803.3281"/><polygon fill="#FFB000" points="133,793.3281,137,803.3281,141,793.3281,137,797.3281" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="549" y1="225.875" y2="260.875"/><polygon fill="#FFB000" points="545,250.875,549,260.875,553,250.875,549,254.875" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="549" y1="294.8438" y2="329.8438"/><polygon fill="#FFB000" points="545,319.8438,549,329.8438,553,319.8438,549,323.8438" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="549" y1="363.8125" y2="398.8125"/><polygon fill="#FFB000" points="545,388.8125,549,398.8125,553,388.8125,549,392.8125" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="507" x2="390" y1="479.7813" y2="479.7813"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="390" x2="390" y1="479.7813" y2="527.3906"/><polygon fill="#FFB000" points="386,517.3906,390,527.3906,394,517.3906,390,521.3906" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="22" x="390" y="507.394">ACK</text><line style="stroke:#FFB000;stroke-width:1.0;" x1="591" x2="706.5" y1="479.7813" y2="479.7813"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="706.5" x2="706.5" y1="479.7813" y2="527.3906"/><polygon fill="#FFB000" points="702.5,517.3906,706.5,527.3906,710.5,517.3906,706.5,521.3906" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="30" x="706.5" y="507.394">NACK</text><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="549" y1="491.7813" y2="503.651"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="547.5" y1="503.651" y2="503.651"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="547.5" x2="547.5" y1="503.651" y2="527.3906"/><polygon fill="#FFB000" points="543.5,517.3906,547.5,527.3906,551.5,517.3906,547.5,521.3906" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="29" x="547.5" y="508.394">error</text><line style="stroke:#FFB000;stroke-width:1.0;" x1="390" x2="390" y1="561.3594" y2="668.3594"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="390" x2="537" y1="668.3594" y2="668.3594"/><polygon fill="#FFB000" points="527,664.3594,537,668.3594,527,672.3594,531,668.3594" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="706.5" x2="706.5" y1="561.3594" y2="668.3594"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="706.5" x2="561" y1="668.3594" y2="668.3594"/><polygon fill="#FFB000" points="571,664.3594,561,668.3594,571,672.3594,567,668.3594" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="547.5" x2="547.5" y1="561.3594" y2="603.5547"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="547.5" x2="549" y1="603.5547" y2="603.5547"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="549" y1="603.5547" y2="656.3594"/><polygon fill="#FFB000" points="545,646.3594,549,656.3594,553,646.3594,549,650.3594" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="549" y1="432.7813" y2="467.7813"/><polygon fill="#FFB000" points="545,457.7813,549,467.7813,553,457.7813,549,461.7813" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="549" y1="680.3594" y2="715.3594"/><polygon fill="#FFB000" points="545,705.3594,549,715.3594,553,705.3594,549,709.3594" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="549" y1="167.9063" y2="191.9063"/><polygon fill="#FFB000" points="545,181.9063,549,191.9063,553,181.9063,549,185.9063" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="549" y1="749.3281" y2="759.3281"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="802" y1="759.3281" y2="759.3281"/><polygon fill="#FFB000" points="798,476.1172,802,466.1172,806,476.1172,802,472.1172" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="802" x2="802" y1="155.9063" y2="759.3281"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="802" x2="585.5" y1="155.9063" y2="155.9063"/><polygon fill="#FFB000" points="595.5,151.9063,585.5,155.9063,595.5,159.9063,591.5,155.9063" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="512.5" x2="296" y1="155.9063" y2="155.9063"/><polygon fill="#FFB000" points="292,462.1172,296,472.1172,300,462.1172,296,466.1172" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="296" x2="296" y1="155.9063" y2="771.3281"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="296" x2="549" y1="771.3281" y2="771.3281"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="549" y1="771.3281" y2="803.3281"/><polygon fill="#FFB000" points="545,793.3281,549,803.3281,553,793.3281,549,797.3281" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="947.5" x2="947.5" y1="436.7305" y2="461.1328"/><polygon fill="#FFB000" points="943.5,451.1328,947.5,461.1328,951.5,451.1328,947.5,455.1328" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="1039" x2="1051" y1="424.7305" y2="424.7305"/><polygon fill="#FFB000" points="1047,468.1172,1051,478.1172,1055,468.1172,1051,472.1172" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="1051" x2="1051" y1="424.7305" y2="531.5039"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="1051" x2="959.5" y1="531.5039" y2="531.5039"/><polygon fill="#FFB000" points="969.5,527.5039,959.5,531.5039,969.5,535.5039,965.5,531.5039" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="947.5" x2="947.5" y1="495.1016" y2="519.5039"/><polygon fill="#FFB000" points="943.5,509.5039,947.5,519.5039,951.5,509.5039,947.5,513.5039" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="947.5" x2="947.5" y1="388.7305" y2="412.7305"/><polygon fill="#FFB000" points="943.5,402.7305,947.5,412.7305,951.5,402.7305,947.5,406.7305" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="947.5" x2="947.5" y1="543.5039" y2="555.5039"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="947.5" x2="1063" y1="555.5039" y2="555.5039"/><polygon fill="#FFB000" points="1059,476.1172,1063,466.1172,1067,476.1172,1063,472.1172" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="1063" x2="1063" y1="376.7305" y2="555.5039"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="1063" x2="984" y1="376.7305" y2="376.7305"/><polygon fill="#FFB000" points="994,372.7305,984,376.7305,994,380.7305,990,376.7305" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="911" x2="844" y1="376.7305" y2="376.7305"/><polygon fill="#FFB000" points="840,462.1172,844,472.1172,848,462.1172,844,466.1172" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="844" x2="844" y1="376.7305" y2="567.5039"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="844" x2="947.5" y1="567.5039" y2="567.5039"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="947.5" x2="947.5" y1="567.5039" y2="803.3281"/><polygon fill="#FFB000" points="943.5,793.3281,947.5,803.3281,951.5,793.3281,947.5,797.3281" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="137" x2="137" y1="97.6094" y2="192.3086"/><polygon fill="#FFB000" points="133,182.3086,137,192.3086,141,182.3086,137,186.3086" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="549" x2="549" y1="97.6094" y2="143.9063"/><polygon fill="#FFB000" points="545,133.9063,549,143.9063,553,133.9063,549,137.9063" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="947.5" x2="947.5" y1="97.6094" y2="364.7305"/><polygon fill="#FFB000" points="943.5,354.7305,947.5,364.7305,951.5,354.7305,947.5,358.7305" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="540" x2="540" y1="71.6094" y2="91.6094"/><polygon fill="#FFB000" points="536,81.6094,540,91.6094,544,81.6094,540,85.6094" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="540" x2="540" y1="809.3281" y2="829.3281"/><polygon fill="#FFB000" points="536,819.3281,540,829.3281,544,819.3281,540,823.3281" style="stroke:#FFB000;stroke-width:1.0;"/><!--MD5=[c2e470fb46f233949c91d3b9def0b79c]
+@startuml arquitetura-provider-flow
+
+!theme crt-amber
+
+title "Provider Flow Diagram"
+
+start
+
+fork
+    group File Collector
+        while (can run?)
+            :load configuration;
+            :enumerate sources;
+            :collect files;
+            if (there's files to send?) then (yes)
+                :schedule files by sources;
+                :enqueue files;
+                :update statistics;
+            endif
+        endwhile
+        end group
+
+    fork again
+        group File Sender
+            while (can run?)
+
+                :get file from queue;
+                :detect API that will receive file;
+                :send file to API;
+                :wait ACK;
+                switch (response?)
+                case (ACK)
+                :move file to sent folder;
+                case (error)
+                :reenqueue file;
+                case (NACK)
+                :move file to error folder;
+                endswitch
+                :update statistics;
+
+            endwhile
+            end group
+
+        fork again
+            group Metric Publisher
+                while (can run?)
+                    if (it's time to publish metrics?) then (yes)
+                        :publish metrics;
+                    endif
+                endwhile
+                end group
+
+                end fork
+
+            end
+            @enduml
+
+@startuml arquitetura-provider-flow
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #FFB000
+    FontName Verdana
+    HyperLinkColor #FFCC00
+    LineColor #FFB000
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #FFB000
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #FFB000
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #FFB000
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #FFB000
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #FFB000
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #FFB000
+  BorderColor #FFB000
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #FFB000
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #FFB000
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #FFCC00
+}
+skinparam IconPackage {
+  Color #FFB000
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #FFB000
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #FFB000
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #FFB000
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #FFB000
+}
+skinparam Package {
+  BorderColor #FFB000
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #FFB000
+}
+skinparam StereotypeA {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam StereotypeC {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam StereotypeE {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam StereotypeI {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam StereotypeN {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam UseCaseStereoType {
+  FontColor #FFB000
+  FontName Verdana
+}
+
+title "Provider Flow Diagram"
+
+start
+
+fork
+    group File Collector
+        while (can run?)
+            :load configuration;
+            :enumerate sources;
+            :collect files;
+            if (there's files to send?) then (yes)
+                :schedule files by sources;
+                :enqueue files;
+                :update statistics;
+            endif
+        endwhile
+        end group
+
+    fork again
+        group File Sender
+            while (can run?)
+
+                :get file from queue;
+                :detect API that will receive file;
+                :send file to API;
+                :wait ACK;
+                switch (response?)
+                case (ACK)
+                :move file to sent folder;
+                case (error)
+                :reenqueue file;
+                case (NACK)
+                :move file to error folder;
+                endswitch
+                :update statistics;
+
+            endwhile
+            end group
+
+        fork again
+            group Metric Publisher
+                while (can run?)
+                    if (it's time to publish metrics?) then (yes)
+                        :publish metrics;
+                    endif
+                endwhile
+                end group
+
+                end fork
+
+            end
+            @enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 17:34:49 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

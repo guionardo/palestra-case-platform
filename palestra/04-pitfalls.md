@@ -1,7 +1,9 @@
 # PITFALLS
 
+<figure height="50%">
 <img src="images/pitfall-activision.webp"/><br/>
-<small>(Activision/Reprodução)</small>
+<figcaption>(Activision/Reprodução)</figcaption>
+</figure>
 
 
 ## Buraco (1)
@@ -37,7 +39,7 @@ Note: Uma máquina que serve uma geografia tem até 24 CPU's e 200GB de RAM e al
 
 <table>
 <tr><td width="30%"><img src="images/mri-3.png" /></td>
-<td>Ambiente AIX não disponibiliza recursos de SSL, impossibilitando o uso de requests HTTPS via urllib.</td></tr></table>
+<td>Ambiente AIX não disponibiliza recursos de SSL para o python, impossibilitando o uso de requests HTTPS via urllib.</td></tr></table>
 
 Note: A biblioteca openssl estava disponibilizada nos ambientes. Mas não estava devidamente configurada para o uso no python 2.6.8.  A alternativa foi utilizar o curl com processo paralelo para fazer a requisição HTTP.
 
@@ -73,6 +75,5 @@ Note: Este aspecto da latência de rede deve ser levado em consideração, pois 
 ##
 
 <img src="images/oh-god-why.svg" height="50%"/><br/>
-<small>(Activision/Reprodução)</small>
 
 Note: Resumindo, o problema basicamente não é complexo, mas detalhes da infraestrutura aumentam bastante o desafio.

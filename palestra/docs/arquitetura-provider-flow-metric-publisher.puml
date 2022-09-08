@@ -1,0 +1,15 @@
+@startuml arquitetura-provider-flow-metric-publisher
+
+!theme crt-amber
+
+start
+
+group Metric Publisher Worker
+    while (can run?)
+        if (it's time to publish metrics?) then (yes)
+            :publish metrics;
+        endif
+    endwhile
+    end group
+end
+@enduml

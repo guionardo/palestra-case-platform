@@ -1,0 +1,21 @@
+@startuml arquitetura-provider-flow-collector
+
+!theme crt-amber
+
+start
+
+group File Collector Worker
+    while (can run?)
+        :load configuration;
+        :enumerate sources;
+        :collect files;
+        if (there's files to send?) then (yes)
+            :schedule files by sources;
+            :enqueue files;
+            :update statistics;
+        endif
+    endwhile
+end group
+
+end
+@enduml

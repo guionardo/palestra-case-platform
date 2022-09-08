@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="591px" preserveAspectRatio="none" style="width:264px;height:591px;background:#282828;" version="1.1" viewBox="0 0 264 591" width="264px" zoomAndPan="magnify"><defs/><g><ellipse cx="125" cy="15" fill="#282828" rx="10" ry="10" style="stroke:#FFB000;stroke-width:1.0;"/><rect fill="#282828" height="510.5117" style="stroke:#FFB000;stroke-width:1.0;" width="252" x="6" y="35"/><path d="M157,35 L157,44.2969 L147,54.2969 L6,54.2969 " fill="none" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="141" x="9" y="48.9951">File Collector Worker</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="134" x="58" y="115.2969"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="114" x="68" y="136.4355">load configuration</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="143" x="53.5" y="169.2656"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="123" x="63.5" y="190.4043">enumerate sources</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="90" x="80" y="223.2344"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="70" x="90" y="244.373">collect files</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="178" x="36" y="325.6055"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="158" x="46" y="346.7441">schedule files by sources</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="105" x="72.5" y="379.5742"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="85" x="82.5" y="400.7129">enqueue files</text><rect fill="#282828" height="33.9688" rx="12.5" ry="12.5" style="stroke:#FFB000;stroke-width:1.0;" width="126" x="62" y="433.543"/><text fill="#FFB000" font-family="Verdana" font-size="12" lengthAdjust="spacing" textLength="106" x="72" y="454.6816">update statistics</text><polygon fill="#282828" points="64.5,277.2031,185.5,277.2031,197.5,289.2031,185.5,301.2031,64.5,301.2031,52.5,289.2031,64.5,277.2031" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="20" x="129" y="311.4136">yes</text><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="121" x="64.5" y="293.0112">there's files to send?</text><polygon fill="#282828" points="125,487.5117,137,499.5117,125,511.5117,113,499.5117,125,487.5117" style="stroke:#FFB000;stroke-width:1.0;"/><polygon fill="#282828" points="100.5,71.2969,149.5,71.2969,161.5,83.2969,149.5,95.2969,100.5,95.2969,88.5,83.2969,100.5,71.2969" style="stroke:#FFB000;stroke-width:1.0;"/><text fill="#FFB000" font-family="Verdana" font-size="11" lengthAdjust="spacing" textLength="49" x="100.5" y="87.105">can run?</text><ellipse cx="125" cy="575.5117" fill="#282828" rx="10" ry="10" style="stroke:#FFB000;stroke-width:1.5;"/><line style="stroke:#FFB000;stroke-width:2.5;" x1="118.8128" x2="131.1872" y1="569.3245" y2="581.6989"/><line style="stroke:#FFB000;stroke-width:2.5;" x1="131.1872" x2="118.8128" y1="569.3245" y2="581.6989"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125" x2="125" y1="149.2656" y2="169.2656"/><polygon fill="#FFB000" points="121,159.2656,125,169.2656,129,159.2656,125,163.2656" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125" x2="125" y1="203.2344" y2="223.2344"/><polygon fill="#FFB000" points="121,213.2344,125,223.2344,129,213.2344,125,217.2344" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125" x2="125" y1="359.5742" y2="379.5742"/><polygon fill="#FFB000" points="121,369.5742,125,379.5742,129,369.5742,125,373.5742" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125" x2="125" y1="413.543" y2="433.543"/><polygon fill="#FFB000" points="121,423.543,125,433.543,129,423.543,125,427.543" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125" x2="125" y1="301.2031" y2="325.6055"/><polygon fill="#FFB000" points="121,315.6055,125,325.6055,129,315.6055,125,319.6055" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="197.5" x2="224" y1="289.2031" y2="289.2031"/><polygon fill="#FFB000" points="220,386.5586,224,396.5586,228,386.5586,224,390.5586" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="224" x2="224" y1="289.2031" y2="499.5117"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="224" x2="137" y1="499.5117" y2="499.5117"/><polygon fill="#FFB000" points="147,495.5117,137,499.5117,147,503.5117,143,499.5117" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125" x2="125" y1="467.5117" y2="487.5117"/><polygon fill="#FFB000" points="121,477.5117,125,487.5117,129,477.5117,125,481.5117" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125" x2="125" y1="257.2031" y2="277.2031"/><polygon fill="#FFB000" points="121,267.2031,125,277.2031,129,267.2031,125,271.2031" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125" x2="125" y1="95.2969" y2="115.2969"/><polygon fill="#FFB000" points="121,105.2969,125,115.2969,129,105.2969,125,109.2969" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125" x2="125" y1="511.5117" y2="521.5117"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125" x2="242" y1="521.5117" y2="521.5117"/><polygon fill="#FFB000" points="238,306.1055,242,296.1055,246,306.1055,242,302.1055" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="242" x2="242" y1="83.2969" y2="521.5117"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="242" x2="161.5" y1="83.2969" y2="83.2969"/><polygon fill="#FFB000" points="171.5,79.2969,161.5,83.2969,171.5,87.2969,167.5,83.2969" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="88.5" x2="22" y1="83.2969" y2="83.2969"/><polygon fill="#FFB000" points="18,292.1055,22,302.1055,26,292.1055,22,296.1055" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="22" x2="22" y1="83.2969" y2="533.5117"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="22" x2="125" y1="533.5117" y2="533.5117"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125" x2="125" y1="533.5117" y2="565.5117"/><polygon fill="#FFB000" points="121,555.5117,125,565.5117,129,555.5117,125,559.5117" style="stroke:#FFB000;stroke-width:1.0;"/><line style="stroke:#FFB000;stroke-width:1.0;" x1="125" x2="125" y1="25" y2="71.2969"/><polygon fill="#FFB000" points="121,61.2969,125,71.2969,129,61.2969,125,65.2969" style="stroke:#FFB000;stroke-width:1.0;"/><!--MD5=[8ec098456b0fb0b4f1def3b3068a04b7]
+@startuml arquitetura-provider-flow-collector
+
+!theme crt-amber
+
+start
+
+group File Collector Worker
+    while (can run?)
+        :load configuration;
+        :enumerate sources;
+        :collect files;
+        if (there's files to send?) then (yes)
+            :schedule files by sources;
+            :enqueue files;
+            :update statistics;
+        endif
+    endwhile
+end group
+
+end
+@enduml
+
+@startuml arquitetura-provider-flow-collector
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #FFB000
+    FontName Verdana
+    HyperLinkColor #FFCC00
+    LineColor #FFB000
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #FFB000
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #FFB000
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #FFB000
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #FFB000
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #FFB000
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #FFB000
+  BorderColor #FFB000
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #FFB000
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #FFB000
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #FFCC00
+}
+skinparam IconPackage {
+  Color #FFB000
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #FFB000
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #FFB000
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #FFB000
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #FFB000
+}
+skinparam Package {
+  BorderColor #FFB000
+  FontColor #FFB000
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #FFB000
+}
+skinparam StereotypeA {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam StereotypeC {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam StereotypeE {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam StereotypeI {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam StereotypeN {
+  BackgroundColor #FFB000
+  BorderColor #FFB000
+}
+skinparam UseCaseStereoType {
+  FontColor #FFB000
+  FontName Verdana
+}
+
+start
+
+group File Collector Worker
+    while (can run?)
+        :load configuration;
+        :enumerate sources;
+        :collect files;
+        if (there's files to send?) then (yes)
+            :schedule files by sources;
+            :enqueue files;
+            :update statistics;
+        endif
+    endwhile
+end group
+
+end
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 17:34:49 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

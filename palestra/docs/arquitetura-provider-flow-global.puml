@@ -1,0 +1,38 @@
+@startuml arquitetura-provider-flow-global
+
+!theme crt-amber
+
+title "Provider Flow Workers"
+
+start
+
+
+
+fork
+    partition  "File Collector" {
+        while (can run?) is (yes)
+            :collect files;
+        endwhile (no)
+    }
+
+
+fork again
+    partition "File Sender" {
+        while (can run?) is (yes)
+            :send files;
+        endwhile (no)
+    }
+
+
+fork again
+    partition  "Metric Publisher" {
+        while (can run?) is (yes)
+            :publish metrics;
+        endwhile (no)
+    }
+
+
+end fork
+
+end
+@enduml
