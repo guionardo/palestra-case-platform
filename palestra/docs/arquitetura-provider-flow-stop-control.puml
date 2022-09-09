@@ -9,18 +9,19 @@ group Stop Control
     :load configuration;
 
     split
-        if (is not in execution\ntime window?) then (yes)
+        if (is in execution\ntime window?) then (yes)
+        else (no)
             end            
         endif
     split again
         if (is system in\nbackup mode?) then (yes)
             end
-            
+        else (no)            
         endif
     split again
         if (stop file\nexists?) then (yes)
             end
-            
+        else (no)           
         endif 
     end split
     

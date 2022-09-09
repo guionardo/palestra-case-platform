@@ -1,4 +1,4 @@
-# Worker: Envio de arquivos
+# Envio de arquivos
 
 --
 
@@ -12,8 +12,9 @@
 <li class="fragment">A cada arquivo, identificar o serviço de recepção.</li>
 <li class="fragment">Efetuar o envio via HTTP POST para a URL correspondente.</li>
 <li class="fragment">Tratar a resposta da requisição HTTP: ACK, NACK, e RETRY.</li>
-
 </ul>
+
+Note: a restrição de utilizar python 2.6 inicialmente, nos obrigou a utilizar o cURL do sistema numa chamada externa para fazer as requests.
 
 --
 <h3><span class="mdi mdi-comment-alert"></span> Problemas da estratégia 1</h3>
@@ -115,7 +116,8 @@ class CircuitBreaker:
 
     def open(self, url):
         if not self._receivers.get(url):
-            self._receivers[url] = datetime.now()+timedelta(seconds=5)
+            self._receivers[url] = datetime.now()+\
+                                   timedelta(seconds=5)
 
     def close(self, url):
         if url in self._receivers:
@@ -128,6 +130,8 @@ class CircuitBreaker:
             time.sleep(self._receivers.get(url)-datetime.now())
         self.close(url)
 ```
+
+Note: Nessa classe de circuit breaking, não faremos o uso de pausas progressivas. Para fins de demonstração, o circuito aberto forçará uma pausa de 5 segundos entre requisições.
 --
 ### Método para ler arquivo, montar request, enviar e obter o Retorno
 ```python
@@ -153,48 +157,64 @@ def send_file(filename: str,
 def get_receiver_url(filename:str)->str:
     """
     Identifica a URL do serviço de recebimento a 
-    partir do nome do arquivo.
-    Código mockado neste exemplo, pois usamos 
-    regras específicas em produção.
+    partir do nome do arquivo.   
     """
     return "https://api.localhost:8080"
 ```
+Note: Código mockado neste exemplo, pois usamos regras específicas e internas em produção.
 --
 
 ### Enviando arquivos com um pool de threads
 ```python
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, wait
 
-def files_sender(scheduled_files):
-    result_queue=Queue()
+def files_sender(scheduled_files, circuit_breaker):
+    result_queue = Queue()
+    
     with ThreadPoolExecutor(max_workers=4) as executor:
-        futures=[]
-        total_done = total_not_done=0
+        futures = []
+        total_done = total_not_done = 0
         
         def futures_wait():
             nonlocal futures, total_done, total_not_done
-            if len(futures)==0:
+            if len(futures) == 0:
                 return
-            done, not_done = concurrent.futures.wait(futures)
+            done, not_done = wait(futures)
             total_done += len(done)
-            total_not_done+=len(not_done)
-            futures.clear()            
+            total_not_done += len(not_done)
+            futures.clear()
 
-        for filename in scheduled_files:            
+        for filename in scheduled_files:
             receiver_url = get_receiver_url(filename)
             futures.append(
                 executor.submit(send_file,
                                 filename=filename,
                                 receiver_url=receiver_url,
-                                result_queue=result_queue))
-            if len(futures)==128:
+                                result_queue=result_queue,
+                                circuit_breaker=circuit_breaker))
+            if len(futures) == 128:
                 futures_wait()
-                
+
         futures_wait()
-        
-    if total_not_done>0:
-        print('Tasks not completed',total_not_done)
-    print('Tasks done',total_done)
+
+    if total_not_done > 0:
+        print('Tasks not completed', total_not_done)
+    print('Tasks done', total_done)
     return result_queue
 ```
+Note: nessa função, usaremos um pool de threads para consumir a fila de arquivos e enviar concorrentemente até 4 arquivos por vez e alimentando uma nova fila com os resultados dos envios para fins de estatística.
 --
+### Tratamento do retorno das operações
+<table><tr><td>
+<img class="fragment" src="images/src-sender-file-receive-process.svg" height="80%"></img>
+</td>
+<td>
+<ul>
+<li class="fragment">20x | Aceito</li>
+<li class="fragment">40x | Rejeitado</li>
+<li class="fragment">50x | Erro de serviço</li>
+<li class="fragment">Outras | Erro de rede</li>
+</ul>
+</td></tr></table>
+
+Note:  Mover para subpasta 'error' + arquivo contendo motivo da rejeição

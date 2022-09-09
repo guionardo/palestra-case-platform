@@ -1,4 +1,4 @@
-# Worker: Coleta de arquivos
+# Coleta de arquivos
 
 --
 
@@ -168,3 +168,5 @@ def schedule_files(file_generators):
 <li class="fragment">Escalonamento dos arquivos</li>
 <li class="fragment">Arquivos coletados alimentando uma fila <i>queue.Queue</i>.</li>
 </ul>
+
+Note: Resumo da coleta de arquivos

@@ -1,0 +1,29 @@
+@startuml src-sender-file-receive-process
+
+!theme crt-amber
+
+start
+
+:send file to API;
+:wait ACK;
+switch (http status?)
+case (20x)
+:deactivate\ncircuit breaker;
+:move file to\nsent folder;
+case (40x)
+:move file to\nerror folder;
+case (50x)
+:activate\ncircuit breaker;
+:reenqueue\nfile;
+case (other)
+:reenqueue\nfile;
+
+
+endswitch
+
+
+
+
+
+end
+@enduml
