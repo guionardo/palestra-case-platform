@@ -9,4 +9,4 @@ Em especial, a Leonardo Larsen, idealizador da primeira arquitetura de extraçã
 ## Time AmbevTech: B2B - Monitoring/Platform
 
 --
-## Organização Python Sul
+## Organização ~~Python Sul~~ GruPy Blumenau
